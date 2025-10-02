@@ -18,8 +18,10 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
-            <Route index path="/" element={<Home />} />
-            <Route path="/other" element={<Other />} />
+            <Route path="/portfolio">
+                <Route index path="/" element={<Home />} />
+                <Route path="/other" element={<Other />} />
+            </Route>
         </Routes>
     </BrowserRouter>
   );
