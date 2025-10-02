@@ -8,13 +8,34 @@
             display: flex;
             flex-direction: row;
         }
+
+        .tag {
+            margin: 0 0.5em 0 0;
+            padding: 0.2em 0.2em;
+            background-color: green;
+            color: white;
+        }
     </style>
 </head>
 <body>
-    <header>This will be a header</header>
-    <div class="flex-h">
-        <div>This is on the left</div>
-        <div>This is on the right</div>
+    <header style="background-color: red">This will be a header</header>
+    <div class="flex-h" style="justify-content: space-evenly;">
+        <div>
+            <h2>Project Name</h2>
+            <div class="flex-h">
+                <div class="tag">Tag 1</div>
+                <div class="tag">Tag 2</div>
+            </div>
+        </div>
+        <div>
+            <div>
+                This will be where the showcase is
+                <iframe width="420" height="315"
+                        src="https://www.youtube.com/embed/myLkVSsMN9g">
+                </iframe>
+            </div>
+            <div>This will be where the remarks are</div>
+        </div>
     </div>
 </body>
 </html>
