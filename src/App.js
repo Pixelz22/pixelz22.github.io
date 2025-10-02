@@ -16,7 +16,7 @@ function Other() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basemname={`/${process.env.PUBLIC_URL}`}>
         <Routes>
             <Route path="/portfolio">
                 <Route index path="" element={<Home />} />
