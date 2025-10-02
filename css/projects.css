@@ -1,0 +1,38 @@
+#project-container {
+    margin: 0.25em 1em;
+
+    justify-content: center;
+}
+
+#project-container>div:nth-child(1) {
+    margin-right: 1em;
+}
+
+#project-container>div:nth-child(2) {
+    margin-left: 1em;
+}
+
+#project-description {
+    max-width: 50em;
+}
+
+
+.flex-h {
+    display: flex;
+    flex-direction: row;
+}
+
+.tag {
+    margin: 0 0.5em 0 0;
+    padding: 0.2em 0.2em;
+    background-color: green;
+    color: white;
+}
+
+.bottom-space {
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    margin-bottom: 0.1em;
+}
