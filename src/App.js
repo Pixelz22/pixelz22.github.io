@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function Home() {
     return (
@@ -8,7 +8,7 @@ function Home() {
     );
 }
 
-function Other(props) {
+function Other() {
     return (
         <p>Hello normal</p>
     );
