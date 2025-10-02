@@ -1,5 +1,5 @@
 #project-container {
-    margin: 0.25em 1em;
+    margin: 1em 1em;
 
     justify-content: center;
 }
@@ -12,8 +12,38 @@
     margin-left: 1em;
 }
 
+#project-info>div {
+    margin-bottom: 1em;
+}
+
+#project-name {
+    margin-bottom: 0.1em;
+}
+
+#project-date {
+    font-style: italic;
+    font-weight: bold;
+}
+
 #project-description {
-    max-width: 50em;
+    max-width: 40em;
+}
+
+#project-remarks>ul, #project-remarks>h3 {
+    margin: 0.1em 0;
+}
+
+.download-link:link, .download-link:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.download-link:hover, .download-link:active {
+    background-color: red;
 }
 
 
@@ -29,10 +59,13 @@
     color: white;
 }
 
-.bottom-space {
-    margin-bottom: 0.5em;
+.grid {
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
 }
 
-h2 {
-    margin-bottom: 0.1em;
+.bottom-space {
+    margin-bottom: 0.5em;
 }

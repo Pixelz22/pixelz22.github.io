@@ -9,37 +9,61 @@
     <header style="background-color: red; padding: 2em 0;">This will be a header</header>
     <div id="project-container" class="flex-h">
         <div id="project-info">
-            <h2 id="project-name">Horatio and the Temple of Time & Space</h2>
+            <h1 id="project-name">Horatio and the Temple of Time & Space</h1>
             <div id="project-tags" class="flex-h bottom-space">
                 <div class="tag">Game</div>
                 <div class="tag">Programming</div>
                 <div class="tag">Music</div>
                 <div class="tag">SFX</div>
+                <div class="tag">VFX</div>
+                <div class="tag">UI</div>
+                <div class="tag">Unity</div>
                 <div class="tag">School</div>
             </div>
-            <span><em>Jan 1st, 2025 - Dec 31st, 2026</em></span>
-            <div id="project-ref" style="margin: 0.2em 0">
-                <a href="https://www.youtube.com/watch?v=myLkVSsMN9g">The file link will go here</a>
-            </div>
+            <span id="project-date">Developed Mar 17th, 2025 - Apr 25th, 2025</span>
             <div id="project-description">
-                <p>project description.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat malesuada condimentum. Nam sagittis sit amet nisl sit amet tempor. Nam tempor ut est vel egestas. Praesent mauris lorem, sollicitudin a lectus eleifend, tempor molestie metus. Fusce maximus viverra sem, sed fermentum nunc sollicitudin nec. Proin consectetur dictum quam, eu laoreet nisl porta et. Phasellus ultrices nisl ac lacus elementum tristique. Phasellus nibh nisi, malesuada id ullamcorper eget, pharetra nec sem. Donec sed orci nibh. Curabitur pharetra enim at tincidunt euismod. Nulla euismod malesuada faucibus. Quisque pellentesque tincidunt nibh nec dictum. Mauris laoreet, odio sed faucibus sagittis, elit enim interdum tellus, eu porttitor nibh lorem quis ligula. Quisque hendrerit aliquam velit non cursus. Vestibulum vestibulum magna non augue tristique, sit amet venenatis elit euismod. Donec faucibus pellentesque orci ac imperdiet.</p>
+                <p>
+                    A short puzzle-platformer made in Unity about manipulating your surroundings with various spells.
+                </p>
+                <p>
+                    You play as Horatio, a small wizard trying to make his way through a mystical temple to test
+                    your mastery of your craft. The player is given 3 spells. Launch lets you throw
+                    objects around the room. Swap lets you exchange positions with an object while maintaining speed.
+                    The third spell is Rewind, which lets you move objects backwards through time. You must use
+                    all three in order to complete the puzzles and make it to the end.
+                </p>
+                <p>
+                    This was made as the final project for my CSC 281 (Game Design) class at NC State University.
+                    It was made with a team of 3 others. I was responsible for the majority of the programming and UI, and
+                    all the music and sound design.
+                </p>
             </div>
             <div id="project-remarks">
                 <h3>Remarks</h3>
                 <ul>
-                    <li>remark 1</li>
-                    <li>remark 2</li>
-                    <li>remark 3</li>
+                    <li>This was the first time I made extensive use of particles and other VFX
+                        to create a clear, concise, and responsive user experience.</li>
+                    <li>When time moves backwards, the game music will play in reverse.</li>
+                    <li>Though most of the art was handled by our wonderful artist Tim,
+                        the title card was made by me when he fell ill.</li>
+                    <li>The team phased through multiple versions of the time reversal mechanic
+                        before settling on one inspired by <em>Breath of the Wild</em>.</li>
                 </ul>
+            </div>
+            <div id="project-ref">
+                <a class="download-link" target="_blank"
+                   href="https://drive.google.com/uc?export=download&id=1YsKC3NtELvcLBp2qCo25NALWDpERDORN">
+                    Download the game
+                </a>
             </div>
         </div>
         <div id="project-showcase">
-            <div>
-                <p>This is where the showcase will be</p>
-                <iframe width="420" height="315"
-                        src="https://www.youtube.com/embed/myLkVSsMN9g">
-                </iframe>
+            <div class="grid">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/ZGTeWUSeDC0"></iframe>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/hMKGGBWD8jI"></iframe>
+                <img width="420" src="data/horatio_launch.gif" alt="A GIF demonstrating the game's Launch spell"
+                     style="align-self: end;">
+                <img width="420" src="data/horatio_rewind.gif" alt="A GIF demonstrating the game's Rewind spell">
             </div>
         </div>
     </div>
