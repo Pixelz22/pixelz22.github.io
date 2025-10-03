@@ -27,6 +27,11 @@ h1, h2, h3 {
     color: var(--header-text-color);
 }
 
+a {
+    color: inherit;
+    text-decoration: none; /* no underline */
+}
+
 /* Header and Footer */
 .content-wrapper {
     display: flex;
@@ -52,7 +57,7 @@ header {
     color: var(--accent-color);
 
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -83,9 +88,42 @@ footer {
     box-shadow: 0 -1em 1.5em 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Utils */
+/* */
 
-.center-v {
+project-list {
     display: flex;
-    align-items: stretch;
+    flex-flow: row wrap;
+
+    justify-content: center;
+}
+
+project {
+    width: 25em;
+    height: 9em;
+    margin: 1em 1em;
+    box-sizing: border-box;
+
+    display: block;
+
+    background-color: var(--light-bg-color);
+    box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+
+    transform: none;
+    transition: box-shadow 0.25s, transform 0.25s;
+}
+
+project h3 {
+    margin: 0.5em 0 0 0;
+    text-decoration: underline;
+}
+
+project a {
+    width: 100%;
+    height: 100%;
+}
+
+project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.4);
 }

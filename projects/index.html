@@ -2,11 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler's Portfolio - Projects</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script type="application/javascript" src="project-search.js"></script>
 </head>
 <body>
-    <h1>You'll search projects here</h1>
+<div class="content-wrapper">
+    <header>
+        <div>
+            <div style="font-family: 'JetBrains Mono', monospace;
+                            font-weight: bold;
+                            font-size: 2em;">Tyler Johnson</div>
+            <div>Programmer - Composer - A Guy</div>
+        </div>
+        <nav>
+            <a class="navlink" href="https://www.google.com">About</a>
+            <a class="navlink" href="https://www.google.com">Explore Projects</a>
+            <a class="navlink" href="https://www.google.com">Resume</a>
+            <a class="navlink" href="https://www.google.com">Contact</a>
+        </nav>
+    </header>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <h1>Projects</h1>
+        <project-list></project-list>
+    </div>
+    <footer><span>&copy; 2025 Tyler Lee Johnson</span></footer>
+</div>
 </body>
 </html>

@@ -1,11 +1,19 @@
 let template = Handlebars.compile(`
 {{#each projects}}
-    <div>{{this.name}}</div>
+    <project>
+        <a href="{{this.link}}">
+            <div style="box-sizing: border-box; padding: 1em 1em; height: 100%;">
+                <h3>{{this.name}}</h3>
+                <p>{{this.summary}}</p>
+            </div>
+        </a>
+    </project>
 {{/each}}
 `);
 
 fetch('./listing.json')
     .then((response) => response.json())
     .then((listingJSON) => {
-        console.log(template({projects: listingJSON}));
+        let resultsContainer = document.getElementsByTagName("project-list")[0];
+        resultsContainer.innerHTML = template({projects: listingJSON});
     });
