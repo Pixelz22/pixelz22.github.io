@@ -1,8 +1,6 @@
 #project-container {
     margin: 0em 2em 0em;
 
-    width: 100%;
-
     justify-content: center;
     flex-direction: row;
 }
@@ -10,6 +8,7 @@
 @media (max-width: 1400px) {
     #project-container {
         flex-direction: column;
+        justify-content: flex-start;
     }
 }
 
@@ -36,10 +35,6 @@
     max-height: max-content;
 
     margin-bottom: 1em;
-}
-
-#project-showcase {
-    flex-shrink: 0;
 }
 
 #project-name {
@@ -79,13 +74,6 @@
     padding: 0.2em 0.2em;
     background-color: green;
     color: white;
-}
-
-.grid {
-    display: grid;
-    gap: 1em;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr;
 }
 
 .bottom-space {
