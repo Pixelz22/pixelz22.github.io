@@ -1,0 +1,56 @@
+/* Main page stylings */
+:root {
+    --main-bg-color: #1C1C1C;
+    --light-bg-color: #2C2C2C;
+    --main-text-color: #DFDFDF;
+    --header-text-color: #FFFFFF;
+
+    --accent-bg-color: #C8553D;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+
+    padding: 0 0;
+    margin: 0 0;
+}
+
+h1, h2, h3 {
+    color: var(--header-text-color);
+}
+
+/* Header and Footer */
+header {
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    padding: 1em 1em;
+    width: 100%;
+
+    background-color: var(--accent-bg-color);
+    box-shadow: 0 1em 1.5em 0 rgba(0, 0, 0, 0.2);
+
+    color: black;
+}
+
+header #title {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    margin-top: auto;
+    height: 3em;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--light-bg-color);
+    box-shadow: 0 -1em 1.5em 0 rgba(0, 0, 0, 0.2);
+}
