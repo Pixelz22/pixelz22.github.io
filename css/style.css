@@ -5,7 +5,11 @@
     --main-text-color: #DFDFDF;
     --header-text-color: #FFFFFF;
 
-    --accent-bg-color: #C8553D;
+    --accent-color: #C8553D;
+}
+
+html {
+    height: 100%;
 }
 
 body {
@@ -14,6 +18,7 @@ body {
 
     padding: 0 0;
     margin: 0 0;
+    height: 100%;
 }
 
 h1, h2, h3 {
@@ -21,6 +26,16 @@ h1, h2, h3 {
 }
 
 /* Header and Footer */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100%;
+}
+.content-wrapper>div {
+    flex-grow: 1;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -28,10 +43,10 @@ header {
     padding: 1em 1em;
     width: 100%;
 
-    background-color: var(--accent-bg-color);
+    background-color: var(--light-bg-color);
     box-shadow: 0 1em 1.5em 0 rgba(0, 0, 0, 0.2);
 
-    color: black;
+    color: var(--accent-color);
 }
 
 header #title {
@@ -41,9 +56,6 @@ header #title {
 }
 
 footer {
-    position: sticky;
-    bottom: 0;
-    margin-top: auto;
     height: 3em;
     width: 100%;
 
