@@ -1,4 +1,4 @@
-let template = Handlebars.compile(`
+let listingTemplate = Handlebars.compile(`
 {{#each projects}}
     <project>
         <a href="{{this.link}}">
@@ -15,5 +15,5 @@ fetch('./listing.json')
     .then((response) => response.json())
     .then((listingJSON) => {
         let resultsContainer = document.getElementsByTagName("project-list")[0];
-        resultsContainer.innerHTML = template({projects: listingJSON});
+        resultsContainer.innerHTML = listingTemplate({projects: listingJSON});
     });

@@ -7,82 +7,71 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/projects.css">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
 </head>
 <body>
     <div class="content-wrapper">
-        <header>
-            <div>
-                <div style="font-family: 'JetBrains Mono', monospace;
-                            font-weight: bold;
-                            font-size: 2em;">Tyler Johnson</div>
-                <div>Programmer - Composer - A Guy</div>
-            </div>
-            <nav>
-                <a class="navlink" href="https://www.google.com">About</a>
-                <a class="navlink" href="/projects/">Explore Projects</a>
-                <a class="navlink" href="https://www.google.com">Resume</a>
-                <a class="navlink" href="https://www.google.com">Contact</a>
-            </nav>
-        </header>
-            <div id="project-container" class="flex-h">
-                <div id="project-info">
-                    <h1 id="project-name">Horatio and the Temple of Time & Space</h1>
-                    <div id="project-tags" class="flex-h bottom-space">
-                        <div class="tag">Game</div>
-                        <div class="tag">Programming</div>
-                        <div class="tag">Music</div>
-                        <div class="tag">SFX</div>
-                        <div class="tag">VFX</div>
-                        <div class="tag">UI</div>
-                        <div class="tag">Unity</div>
-                        <div class="tag">School</div>
-                    </div>
-                    <span id="project-date">Developed Mar 17th, 2025 - Apr 25th, 2025</span>
-                    <div id="project-description">
-                        <p>
-                            A short puzzle-platformer made in Unity about manipulating your surroundings with various spells.
-                        </p>
-                        <p>
-                            You play as Horatio, a small wizard trying to make his way through a mystical temple to test
-                            his mastery over spellcraft. The player is given three spells. Launch lets you throw
-                            objects around the room. Swap lets you exchange positions with an object while maintaining speed.
-                            The third spell is Rewind, which lets you move objects backwards through time. You must use
-                            all three in order to complete the puzzles and make it to the end.
-                        </p>
-                        <p>
-                            This was made as the final project for my CSC 281 (Game Design) class at NC State University.
-                            It was made with a team of three others. I was responsible for the majority of the programming and UI, and
-                            all the music and sound design.
-                        </p>
-                    </div>
-                    <div id="project-remarks">
-                        <h3>Remarks</h3>
-                        <ul>
-                            <li>This was the first time I made extensive use of particles and other VFX
-                                to create a clear, concise, and responsive user experience.</li>
-                            <li>When time moves backwards, the game music will play in reverse.</li>
-                            <li>Though most of the art was handled by our wonderful artist Tim,
-                                the title card was made by me when he fell ill.</li>
-                            <li>The team phased through multiple versions of the time reversal mechanic
-                                before settling on one inspired by <em>Breath of the Wild</em>.</li>
-                        </ul>
-                    </div>
-                    <div id="project-ref">
-                        <a class="download-link" target="_blank"
-                           href="https://drive.google.com/uc?export=download&id=1YsKC3NtELvcLBp2qCo25NALWDpERDORN">
-                            Download the game
-                        </a>
-                    </div>
+        <header></header>
+        <script type="application/javascript" src="/js/header.js"></script>
+        <div id="project-container" class="flex-h">
+            <div id="project-info">
+                <h1 id="project-name">Horatio and the Temple of Time & Space</h1>
+                <div id="project-tags" class="flex-h bottom-space">
+                    <div class="tag">Game</div>
+                    <div class="tag">Programming</div>
+                    <div class="tag">Music</div>
+                    <div class="tag">SFX</div>
+                    <div class="tag">VFX</div>
+                    <div class="tag">UI</div>
+                    <div class="tag">Unity</div>
+                    <div class="tag">School</div>
                 </div>
-                <div id="project-showcase">
-                    <div style="display: grid; grid-gap: 1em 1em; grid-template-columns: 1fr 1fr;">
-                        <iframe width="400" height="315" src="https://www.youtube.com/embed/ZGTeWUSeDC0"></iframe>
-                        <iframe width="400" height="315" src="https://www.youtube.com/embed/hMKGGBWD8jI"></iframe>
-                        <img width="400" src="data/horatio_launch.gif" alt="A GIF demonstrating the game's Launch spell">
-                        <img width="400" src="data/horatio_rewind.gif" alt="A GIF demonstrating the game's Rewind spell">
-                    </div>
+                <span id="project-date">Developed Mar 17th, 2025 - Apr 25th, 2025</span>
+                <div id="project-description">
+                    <p>
+                        A short puzzle-platformer made in Unity about manipulating your surroundings with various spells.
+                    </p>
+                    <p>
+                        You play as Horatio, a small wizard trying to make his way through a mystical temple to test
+                        his mastery over spellcraft. The player is given three spells. Launch lets you throw
+                        objects around the room. Swap lets you exchange positions with an object while maintaining speed.
+                        The third spell is Rewind, which lets you move objects backwards through time. You must use
+                        all three in order to complete the puzzles and make it to the end.
+                    </p>
+                    <p>
+                        This was made as the final project for my CSC 281 (Game Design) class at NC State University.
+                        It was made with a team of three others. I was responsible for the majority of the programming and UI, and
+                        all the music and sound design.
+                    </p>
+                </div>
+                <div id="project-remarks">
+                    <h3>Remarks</h3>
+                    <ul>
+                        <li>This was the first time I made extensive use of particles and other VFX
+                            to create a clear, concise, and responsive user experience.</li>
+                        <li>When time moves backwards, the game music will play in reverse.</li>
+                        <li>Though most of the art was handled by our wonderful artist Tim,
+                            the title card was made by me when he fell ill.</li>
+                        <li>The team phased through multiple versions of the time reversal mechanic
+                            before settling on one inspired by <em>Breath of the Wild</em>.</li>
+                    </ul>
+                </div>
+                <div id="project-ref">
+                    <a class="download-link" target="_blank"
+                       href="https://drive.google.com/uc?export=download&id=1YsKC3NtELvcLBp2qCo25NALWDpERDORN">
+                        Download the game
+                    </a>
                 </div>
             </div>
+            <div id="project-showcase">
+                <div style="display: grid; grid-gap: 1em 1em; grid-template-columns: 1fr 1fr;">
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/ZGTeWUSeDC0"></iframe>
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/hMKGGBWD8jI"></iframe>
+                    <img width="400" src="data/horatio_launch.gif" alt="A GIF demonstrating the game's Launch spell">
+                    <img width="400" src="data/horatio_rewind.gif" alt="A GIF demonstrating the game's Rewind spell">
+                </div>
+            </div>
+        </div>
         <footer><span>&copy; 2025 Tyler Lee Johnson</span></footer>
     </div>
 </body>
