@@ -43,6 +43,7 @@ header {
     top: 0;
     box-sizing: border-box;
     padding: 1em 1em;
+    margin-bottom: 1em;
     width: 100%;
 
     background-color: var(--light-bg-color);
@@ -60,6 +61,7 @@ header #title {
 footer {
     height: 3em;
     width: 100%;
+    margin: 1em 0 0 0;
 
     display: flex;
     align-items: center;
@@ -67,4 +69,11 @@ footer {
 
     background-color: var(--light-bg-color);
     box-shadow: 0 -1em 1.5em 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Utils */
+
+.center-v {
+    display: flex;
+    align-items: center;
 }
