@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Horatio and the Temple of Time & Space",
+    "summary": "A short puzzle-platformer made in Unity about manipulating your surroundings with various spells.",
+    "link": "projects/horatio"
+  },
+  {
+    "name": "Test Project",
+    "summary": "This is a test.",
+    "link": "projects/test"
+  }
+]

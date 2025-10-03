@@ -50,12 +50,24 @@ header {
     box-shadow: 0 1em 1.5em 0 rgba(0, 0, 0, 0.2);
 
     color: var(--accent-color);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header #title {
-    font-family: "JetBrains Mono", monospace;
-    font-weight: bold;
-    font-size: 2em;
+.navlink:link, .navlink:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navlink:hover, .navlink:active {
+    background-color: red;
 }
 
 footer {
