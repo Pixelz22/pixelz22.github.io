@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler's Portfolio - Horatio Game</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/project-page.css">
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+</head>
+<body>
+    <div class="content-wrapper">
+        <header></header>
+        <script type="application/javascript" src="/js/header.js"></script>
+        <div id="project-container" class="flex-h">
+            <div id="project-info">
+                <h1 id="project-name">Liar's Dice for Discord</h1>
+                <div id="project-tags" class="flex-h bottom-space">
+                    <div class="tag">Game</div>
+                    <div class="tag">Programming</div>
+                    <div class="tag">UI</div>
+                    <div class="tag">Discord</div>
+                </div>
+                <span id="project-date">Developed Oct 24th, 2024 - Jan 22nd, 2025</span>
+                <div id="project-description">
+                    <p>
+                        A fully implemented Discord Bot that allows users to play Liar's Dice with each other through an embed-based GUI.
+                        Made with Discord.py
+                    </p>
+                    <p>
+                        This bot (nicknamed "LoRiggio") allows server members to start, join, play, and customize games of Liar's Dice,
+                        a game made popular by the <a target="_blank" href="https://www.youtube.com/watch?v=_tnLYEwZRgU">famous scene</a>
+                        from <em>Pirates of the Caribbean: Dead Man's Chest</em>. Players can interact with the bot through intuitive
+                        buttons and dropdowns, or special commands for more complicated tasks. LoRiggio responds with custom emojis
+                        and embeds to present a polished UI for players, using Discord's special ephemeral messages to keep
+                        each player's hand private.
+                    </p>
+                </div>
+                <div id="project-remarks">
+                    <h3>Remarks</h3>
+                    <ul>
+                        <li>Uses asynchronous command handling.</li>
+                        <li>Commands are restricted by server permissions and game state to prevent misuse.</li>
+                        <li>Supports 4 different gamemodes and customizable rules.</li>
+                        <li>Each text channel can run its own concurrent game.</li>
+                    </ul>
+                </div>
+                <div id="project-tools">
+                    <h3>Tools & Frameworks</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Discord.py</li>
+                        <li>GIMP</li>
+                    </ul>
+                </div>
+                <div id="project-ref">
+                    <a class="download-link" target="_blank"
+                       href="https://github.com/Pixelz22/LoRiggioDev">
+                        View on GitHub
+                    </a>
+                </div>
+            </div>
+            <div id="project-showcase">
+                <div class="grid grid-center grid-1c">
+                    <img height=400 src="https://github.com/Pixelz22/LoRiggioDev/raw/main/images/game_peek.png"
+                         alt="A screenshot of LoRiggio mid-game">
+                    <img height=400 src="https://github.com/Pixelz22/LoRiggioDev/raw/main/images/game_call.png"
+                         alt="A screenshot of someone calling the bet in LoRiggio">
+                </div>
+            </div>
+        </div>
+        <footer><span>&copy; 2025 Tyler Lee Johnson</span></footer>
+    </div>
+</body>
+</html>

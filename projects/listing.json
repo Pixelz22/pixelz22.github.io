@@ -1,32 +1,47 @@
 [
   {
     "name": "Horatio and the Temple of Time & Space",
-    "summary": "A short puzzle-platformer made in Unity about manipulating your surroundings with various spells.",
+    "summary": "A short puzzle-platformer about manipulating your surroundings with various spells. Made with Unity.",
     "link": "horatio"
   },
   {
-    "name": "Test Project",
-    "summary": "This is a test.",
-    "link": "test"
+    "name": "Liar's Dice for Discord",
+    "summary": "A fully implemented Discord Bot that allows users to play Liar's Dice with each other through an embed-based GUI. Made with Discord.py",
+    "link": "liarsDiceBot"
   },
   {
-    "name": "Test Project",
-    "summary": "This is a test.",
-    "link": "test"
+    "name": "LazÆr",
+    "summary": "A top-down tile-based puzzle game set in a futuristic lab. Made with PuzzleScript.",
+    "link": "lazAEr"
   },
   {
-    "name": "Test Project",
-    "summary": "This is a test.",
-    "link": "test"
+    "name": "Spook Skoop",
+    "summary": "A Halloween themed <em>Catch 'Em</em>-style game. Made with Unity.",
+    "link": "spookSkoop"
   },
   {
-    "name": "Test Project",
-    "summary": "This is a test.",
-    "link": "test"
+    "name": "This Portfolio!",
+    "summary": "My very own portfolio website, implemented entirely from scratch with HTML, CSS, and Javascript.",
+    "link": "portfolio"
   },
   {
-    "name": "Test Project",
-    "summary": "This is a test.",
-    "link": "test"
+    "name": "Fiery Waters",
+    "summary": "A song that mixes electronic and orchestral elements to create a beautiful soundscape imitating a sunrise. Made with Ableton Live 12.",
+    "link": "fieryWaters"
+  },
+  {
+    "name": "Insomnia",
+    "summary": "A piano duet inspired by Brahms Hungarian Dance No. 5 that falls deeper into madness as it continues.",
+    "link": "insomnia"
+  },
+  {
+    "name": "Caged Bird",
+    "summary": "A text-based adventure game about escaping from a Prisoner-of-War camp in Cold War Era Russia. Made with Twine.",
+    "link": "cagedBird"
+  },
+  {
+    "name": "Sound Design for \"The Robbing\"",
+    "summary": "Mixing, Mastering, and SFX for a short LEGO&reg; animation about a bank robbery.",
+    "link": "theRobbing"
   }
 ]

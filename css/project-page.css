@@ -46,7 +46,7 @@
     font-weight: bold;
 }
 
-#project-remarks>ul, #project-remarks>h3 {
+ul, h3 {
     margin: 0.1em 0;
 }
 
@@ -78,4 +78,29 @@
 
 .bottom-space {
     margin-bottom: 0.5em;
+}
+
+/* Grid stuff */
+
+.grid {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.grid-center {
+    place-items: center;
+}
+
+.grid-1c {
+    grid-template-columns: 1fr;
+}
+
+.grid-2c {
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 1400px) {
+    .sm-grid-1c {
+        grid-template-columns: 1fr;
+    }
 }

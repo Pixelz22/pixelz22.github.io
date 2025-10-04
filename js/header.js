@@ -3,7 +3,7 @@ let headerTemplate = Handlebars.compile(`
         <div style="font-family: 'JetBrains Mono', monospace;
                         font-weight: bold;
                         font-size: 2em;">Tyler Johnson</div>
-        <div>Programmer - Composer - A Guy</div>
+        <div>Coding and Composing with a Creative Soul</div>
     </div>
     <nav>
         <a class="navlink" href="/">About</a>
