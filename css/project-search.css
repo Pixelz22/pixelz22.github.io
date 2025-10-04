@@ -18,7 +18,7 @@ project {
     border-radius: 0.5em;
 
     transform: none;
-    transition: box-shadow 0.25s, transform 0.25s;
+    transition: box-shadow 0.25s, transform 0.25s, filter 0.25s;
 }
 
 project h3 {
@@ -34,4 +34,5 @@ project a {
 project:hover {
     transform: scale(1.05);
     box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.4);
+    filter: brightness(125%);
 }

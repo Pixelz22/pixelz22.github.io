@@ -10,6 +10,11 @@
     "link": "liarsDiceBot"
   },
   {
+    "name": "Fiery Waters",
+    "summary": "A song that mixes electronic and orchestral elements to create a beautiful soundscape imitating a sunrise. Made with Ableton Live 12.",
+    "link": "fieryWaters"
+  },
+  {
     "name": "LazÆr",
     "summary": "A top-down tile-based puzzle game set in a futuristic lab. Made with PuzzleScript.",
     "link": "lazAEr"
@@ -23,11 +28,6 @@
     "name": "This Portfolio!",
     "summary": "My very own portfolio website, implemented entirely from scratch with HTML, CSS, and Javascript.",
     "link": "portfolio"
-  },
-  {
-    "name": "Fiery Waters",
-    "summary": "A song that mixes electronic and orchestral elements to create a beautiful soundscape imitating a sunrise. Made with Ableton Live 12.",
-    "link": "fieryWaters"
   },
   {
     "name": "Insomnia",
