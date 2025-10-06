@@ -15,6 +15,11 @@
     "link": "fieryWaters"
   },
   {
+    "name": "Sound Design for \"The Robbing\"",
+    "summary": "Mixing, Mastering, and SFX for a short LEGO&reg; animation about a bank robbery.",
+    "link": "theRobbing"
+  },
+  {
     "name": "LazÆr",
     "summary": "A top-down tile-based puzzle game set in a futuristic lab. Made with PuzzleScript.",
     "link": "lazAEr"
@@ -38,10 +43,5 @@
     "name": "Caged Bird",
     "summary": "A text-based adventure game about escaping from a Prisoner-of-War camp in Cold War Era Russia. Made with Twine.",
     "link": "cagedBird"
-  },
-  {
-    "name": "Sound Design for \"The Robbing\"",
-    "summary": "Mixing, Mastering, and SFX for a short LEGO&reg; animation about a bank robbery.",
-    "link": "theRobbing"
   }
 ]
