@@ -20,28 +20,33 @@
     "link": "theRobbing"
   },
   {
+    "name": "Metathesiophobia",
+    "summary": "A first-person 3D horror game about escaping from a lab while avoiding a raging monster.",
+    "link": "metathesiophobia"
+  },
+  {
     "name": "LazÆr",
     "summary": "A top-down tile-based puzzle game set in a futuristic lab. Made with PuzzleScript.",
-    "link": "lazAEr"
+    "link": ""
   },
   {
     "name": "Spook Skoop",
     "summary": "A Halloween themed <em>Catch 'Em</em>-style game. Made with Unity.",
-    "link": "spookSkoop"
+    "link": ""
   },
   {
     "name": "This Portfolio!",
     "summary": "My very own portfolio website, implemented entirely from scratch with HTML, CSS, and Javascript.",
-    "link": "portfolio"
+    "link": ""
   },
   {
     "name": "Insomnia",
     "summary": "A piano duet inspired by Brahms Hungarian Dance No. 5 that falls deeper into madness as it continues.",
-    "link": "insomnia"
+    "link": ""
   },
   {
     "name": "Caged Bird",
     "summary": "A text-based adventure game about escaping from a Prisoner-of-War camp in Cold War Era Russia. Made with Twine.",
-    "link": "cagedBird"
+    "link": ""
   }
 ]
