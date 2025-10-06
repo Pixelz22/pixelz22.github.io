@@ -31,7 +31,12 @@ project a {
     height: 100%;
 }
 
-project:hover {
+project.inactive {
+    filter: brightness(60%);
+    box-shadow: 0 0 1.3em 0 rgba(0, 0, 0, 0.3) inset;
+}
+
+project.active:hover {
     transform: scale(1.05);
     box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.4);
     filter: brightness(125%);
