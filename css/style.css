@@ -67,6 +67,8 @@ nav {
 }
 
 .navlink:link, .navlink:visited {
+    margin: 0.1em 0;
+
     background-color: #f44336;
     color: white;
     padding: 14px 25px;
@@ -90,4 +92,85 @@ footer {
 
     background-color: var(--light-bg-color);
     box-shadow: 0 -1em 1.5em 0 rgba(0, 0, 0, 0.2);
+}
+
+ul, h3 {
+    margin: 0.1em 0;
+}
+
+h2 {
+    margin: 0.7em 0 0.1em 0;
+}
+
+p {
+    margin: 0.5em 0 0.1em 0;
+}
+
+/* Utils */
+
+.max-width-50em {
+    max-width: 50em;
+}
+
+.float-right {
+    float: right;
+}
+
+.flex-h {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.grid {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.grid-center {
+    place-items: center;
+}
+
+.grid-1c {
+    grid-template-columns: 1fr;
+}
+
+.grid-2c {
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 1400px) {
+    .sm-grid-1c {
+        grid-template-columns: 1fr;
+    }
+}
+
+.section {
+    margin: 0.5em 0.5em;
+    padding: 0.5em 1em;
+
+    display: block;
+
+    background-color: var(--light-bg-color);
+    box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+}
+
+img {
+    margin: 0.5em 0.5em;
+}
+
+.margin-bottom {
+    margin-bottom: 1em;
+}
+
+.margin-sides {
+    margin: 0 1em;
 }

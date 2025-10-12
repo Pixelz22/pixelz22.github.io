@@ -46,10 +46,6 @@
     font-weight: bold;
 }
 
-ul, h3 {
-    margin: 0.1em 0;
-}
-
 .download-link:link, .download-link:visited {
     background-color: #f44336;
     color: white;
@@ -63,12 +59,6 @@ ul, h3 {
     background-color: red;
 }
 
-
-.flex-h {
-    display: flex;
-    flex-direction: row;
-}
-
 .tag {
     margin: 0 0.5em 0 0;
     padding: 0.2em 0.2em;
@@ -78,29 +68,4 @@ ul, h3 {
 
 .bottom-space {
     margin-bottom: 0.5em;
-}
-
-/* Grid stuff */
-
-.grid {
-    display: grid;
-    gap: 1em 1em;
-}
-
-.grid-center {
-    place-items: center;
-}
-
-.grid-1c {
-    grid-template-columns: 1fr;
-}
-
-.grid-2c {
-    grid-template-columns: 1fr 1fr;
-}
-
-@media (max-width: 1400px) {
-    .sm-grid-1c {
-        grid-template-columns: 1fr;
-    }
 }

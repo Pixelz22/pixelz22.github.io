@@ -8,7 +8,7 @@ let headerTemplate = Handlebars.compile(`
     <nav>
         <a class="navlink" href="/">About</a>
         <a class="navlink" href="/projects/">Explore Projects</a>
-        <a class="navlink" href="/resume">Resume</a>
+        <!-- <a class="navlink" href="/resume">Resume</a> -->
     </nav>
 `);
 
