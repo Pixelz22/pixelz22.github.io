@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Tyler's Portfolio</title>
+
+    <!-- Metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tyler's Portfolio</title>
+
+    <!-- Style Sheets-->
+    <link rel="stylesheet" href="/css/presets.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/md-layout.css">
+    <link rel="stylesheet" href="/css/sm-layout.css">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
 <div class="content-wrapper">
     <header></header>
-    <div class="grid grid-2c-fit sm-grid-1c justify-content-center sm-place-items-center margin-sides">
+    <div class="grid grid-2c-fit md-grid-1c justify-content-center sm-place-items-center margin-sides">
         <img width="300" class="align-self-center" src="headshot.jpg" alt="A picture of Tyler">
 
-        <div class="section justify-left">
+        <div class="section justify-self-left align-self-center">
             <h2>Hi there!</h2>
             <p>
                 My name is <strong>Tyler Johnson</strong>, a passionate programmer, composer, and sound engineer.<br/>
                 I'm currently pursuing my Master's in Computer Science at North Carolina State University.
             </p>
             <h2>My Story:</h2>
-            <p class="max-width-50em">
+            <p class="max-w-50 mb-4">
                 Video games have always been my favorite pastime, even when I was little.
                 After playing through Pokemon Gold on my cousin's computer, I came to a decision: I was going to make one of these things. <br/><br/>
                 That goal has driven me throughout my life: That goal is what started my programming journey at eleven years old.
@@ -34,31 +46,86 @@
             <a class="navlink float-right" href="/projects/">See some of my work &rarr;</a>
         </div>
 
-        <div class="section">
-            <h1>Contact Me</h1>
-        </div>
+        <div id="contactInfo" class="flex flex-col place-items-center section">
+            <div class="w-fit">
+                <h1>Contact Me</h1>
+                <ul class="ul-flat space-y-4">
+                    <li class="flex align-items-center pv-1 ph-2">
+                        <ion-icon name="mail-outline" class="col-accent text-lg mr-4"></ion-icon>
+                        <div>
+                            <div class="col-dim">Email</div>
+                            <div>tljohnson1225@gmail.com</div>
+                        </div>
+                    </li>
+                    <li class="flex align-items-center pv-1 ph-2">
+                        <ion-icon name="logo-discord" class="col-accent text-lg mr-4"></ion-icon>
+                        <div>
+                            <div class="col-dim">Discord</div>
+                            <div>@.bocket</div>
+                        </div>
+                    </li>
+                </ul>
 
-        <div class="section justify-left">
-            <h1>Education</h1>
 
-            <div class="margin-bottom">
-                <h3>Associate's in Science</h3>
-                <div><em>Class of May 2023</em></div>
-                <ul>
-                    <li>Wake Technical Community College, Raleigh, NC</li>
-                    <li>Cumulative GPA: 4.0</li>
-                    <li>Dually Enrolled during High School through Career and College Promise Program</li>
+                <h1>Platforms</h1>
+                <ul class="ul-flat space-y-4 w-fit">
+                    <li class="w-fit">
+                        <a href="https://github.com/Pixelz22" target="_blank"
+                           class="flex align-items-center w-fit bg-light pv-1 ph-2 rounded-4 hover-highlight">
+                            <ion-icon name="logo-github" class="col-accent text-lg mr-4"></ion-icon>
+                            <div>
+                                <div class="col-dim">GitHub</div>
+                                <div>@Pixelz22</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="w-fit">
+                        <a href="https://www.linkedin.com/in/tyler-johnson-nc/" target="_blank"
+                           class="flex align-items-center w-fit bg-light pv-1 ph-2 rounded-4 hover-highlight">
+                            <ion-icon name="logo-linkedin" class="col-accent text-lg mr-4"></ion-icon>
+                            <div>
+                                <div class="col-dim">LinkedIn</div>
+                                <div>@tyler-johnson-nc</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="w-fit">
+                        <a href="https://www.youtube.com/@Ofln" target="_blank"
+                           class="flex align-items-center w-fit bg-light pv-1 ph-2 rounded-4 hover-highlight">
+                            <ion-icon name="logo-youtube" class="col-accent text-lg mr-4"></ion-icon>
+                            <div>
+                                <div class="col-dim">YouTube</div>
+                                <div>@0fln</div>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
+        </div>
 
-            <div>
-                <h3>B.S. Computer Science (Game Development Concentration)</h3>
-                <div><em>Class of May 2026 (Anticipated)</em></div>
-                <ul>
-                    <li>North Carolina state University, Raleigh, NC</li>
-                    <li>Cumulative GPA: 4.0</li>
-                    <li>Dual-Enrollment in Master's in Computer Science through ABM</li>
-                </ul>
+        <div id="education" class="section justify-self-left align-self-start">
+            <h1>Education</h1>
+
+            <div class="space-y-1">
+                <div>
+                    <h3>Associate's in Science</h3>
+                    <div><em>Class of May 2023</em></div>
+                    <ul>
+                        <li>Wake Technical Community College, Raleigh, NC</li>
+                        <li>Cumulative GPA: 4.0</li>
+                        <li>Dually Enrolled during High School through Career and College Promise Program</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>B.S. Computer Science (Game Development Concentration)</h3>
+                    <div><em>Class of May 2026 (Anticipated)</em></div>
+                    <ul>
+                        <li>North Carolina state University, Raleigh, NC</li>
+                        <li>Cumulative GPA: 4.0</li>
+                        <li>Dual-Enrollment in Master's in Computer Science through ABM</li>
+                    </ul>
+                </div>
             </div>
 
         </div>

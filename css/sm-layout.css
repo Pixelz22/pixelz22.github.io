@@ -1,0 +1,20 @@
+/* sm-layout.css
+This contains the styling rules related to placing
+elements on the page for small displays.
+ */
+
+@media (max-width: 700px) {
+
+    .sm-flex-v {
+        flex-direction: column;
+    }
+
+    .sm-place-items-center {
+        place-items: center;
+    }
+
+    .sm-place-content-center {
+        place-content: center;
+    }
+
+}

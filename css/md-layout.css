@@ -1,0 +1,18 @@
+/* sm-layout.css
+This contains the styling rules related to placing
+elements on the page for medium displays.
+ */
+
+@media (max-width: 1400px) {
+    .md-grid-1c {
+        grid-template-columns: 1fr;
+    }
+
+    .md-grid-1c-fit {
+        grid-template-columns: 1fr;
+    }
+
+    .md-place-items-center {
+        place-items: center;
+    }
+}
