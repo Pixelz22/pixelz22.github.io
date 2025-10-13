@@ -1,5 +1,5 @@
 let headerTemplate = Handlebars.compile(`
-    <div>
+    <div class="sm-flex-v sm-flex-place-items-center">
         <div style="font-family: 'JetBrains Mono', monospace;
                         font-weight: bold;
                         font-size: 2em;">Tyler Johnson</div>
