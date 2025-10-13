@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tyler's Portfolio - Insomnia</title>
+
+    <!-- Style Sheets-->
+    <link rel="stylesheet" href="/css/presets.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/md-layout.css">
+    <link rel="stylesheet" href="/css/sm-layout.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=JetBrains Mono'>
     <link rel="stylesheet" href="/css/project-page.css">
-    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
 </head>
 <body>
     <div class="content-wrapper">
         <header></header>
         <script type="application/javascript" src="/js/header.js"></script>
-        <div id="project-container" class="flex-h">
+        <div id="project-container" class="flex">
             <div id="project-info">
                 <h1 id="project-name">Insomnia</h1>
-                <div id="project-tags" class="flex-h bottom-space">
+                <div id="project-tags" class="flex mb-4">
                     <div class="tag">Music</div>
                 </div>
                 <span id="project-date">Written in 2021</span>
@@ -60,7 +67,7 @@
                 </div>
             </div>
             <div id="project-showcase">
-                <div class="grid grid-center grid-1c">
+                <div class="grid place-items-center grid-1c grid-gap-4">
                     <p style="text-align: center">The piece is performed at 5:10 in the video below. <br/>
                                                   The audio player contains the full song.</p>
                     <audio controls>

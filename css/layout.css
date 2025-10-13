@@ -73,6 +73,10 @@ elements on the page.
     grid-template-columns: max-content max-content;
 }
 
+.grid-gap-4 {
+    gap: 1rem;
+}
+
 /* Alignment Classes*/
 
 .justify-content-center {
