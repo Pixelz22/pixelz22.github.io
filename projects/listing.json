@@ -48,5 +48,40 @@
     "name": "Caged Bird",
     "summary": "A text-based adventure game about escaping from a Prisoner-of-War camp in Cold War Era Russia. Made with Twine.",
     "link": ""
+  },
+  {
+    "name": "TETR.IO Bot",
+    "summary": "A python bot that plays Tetris on the popular site TETR.IO using screengrabs and input simulation.",
+    "link": ""
+  },
+  {
+    "name": "Valles Liliorum",
+    "summary": "A somber composition for solo piano.",
+    "link": ""
+  },
+  {
+    "name": "Waltz of the Lilies",
+    "summary": "A different take on my other original work, \"Valles Liliorum,\" now arranged as a waltz for string quartet.",
+    "link": ""
+  },
+  {
+    "name": "Minesweeper Solver",
+    "summary": "A playable game of minesweeper with a built-in solving algorithm.",
+    "link": ""
+  },
+  {
+    "name": "Month of Tune 2025",
+    "summary": "A collection of songs I wrote for the Month of Tune 2025 event.",
+    "link": "monthOfTune2025"
+  },
+  {
+    "name": "Minecraft Fibonacci Sphere Generator",
+    "summary": "An algorithm to efficiently generate spheres inside of Minecraft with binary-search approximation of arccosine.",
+    "link": ""
+  },
+  {
+    "name": "Janitor Dan",
+    "summary": "A top-down arcade-style game about cleaning up after messy customers in a hectic mall. Made for ZenoJam 2021",
+    "link": ""
   }
 ]
