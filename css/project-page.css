@@ -69,3 +69,8 @@
 .bottom-space {
     margin-bottom: 0.5em;
 }
+
+
+iframe {
+    border: none;
+}
