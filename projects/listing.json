@@ -25,6 +25,11 @@
     "link": "metathesiophobia"
   },
   {
+    "name": "Month of Tune 2025",
+    "summary": "A collection of songs I wrote for the Month of Tune 2025 event.",
+    "link": "monthOfTune2025"
+  },
+  {
     "name": "LazÆr",
     "summary": "A top-down tile-based puzzle game set in a futuristic lab. Made with PuzzleScript.",
     "link": ""
@@ -68,11 +73,6 @@
     "name": "Minesweeper Solver",
     "summary": "A playable game of minesweeper with a built-in solving algorithm.",
     "link": ""
-  },
-  {
-    "name": "Month of Tune 2025",
-    "summary": "A collection of songs I wrote for the Month of Tune 2025 event.",
-    "link": "monthOfTune2025"
   },
   {
     "name": "Minecraft Fibonacci Sphere Generator",
