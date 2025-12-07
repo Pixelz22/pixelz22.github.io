@@ -29,6 +29,9 @@ project h3 {
 project a {
     width: 100%;
     height: 100%;
+
+    text-decoration: none;
+    color: inherit;
 }
 
 project.inactive {
