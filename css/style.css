@@ -32,3 +32,7 @@
 .hover-highlight:hover {
     filter: brightness(120%);
 }
+
+.no-underline {
+    text-decoration: none;
+}

@@ -23,6 +23,11 @@ elements on the page.
     padding-left: 0.5rem;
 }
 
+.ph-3 {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
 .margin-sides {
     margin: 0 1em;
 }
