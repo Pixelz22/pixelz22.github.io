@@ -41,6 +41,10 @@ elements on the page.
     width: max-content;
 }
 
+.h-full {
+    height: 100%;
+}
+
 /* Flexbox Classes */
 
 .flex {

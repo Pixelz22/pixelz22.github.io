@@ -35,16 +35,6 @@
     "link": "lazAEr"
   },
   {
-    "name": "Spook Skoop",
-    "summary": "A Halloween themed <em>Catch 'Em</em>-style game. Made with Unity.",
-    "link": ""
-  },
-  {
-    "name": "This Portfolio!",
-    "summary": "My very own portfolio website, implemented entirely from scratch with HTML, CSS, and Javascript.",
-    "link": ""
-  },
-  {
     "name": "Insomnia",
     "summary": "A piano duet inspired by Brahms Hungarian Dance No. 5 that falls deeper into madness as it continues.",
     "link": "insomnia"
@@ -53,6 +43,21 @@
     "name": "Caged Bird",
     "summary": "A text-based adventure game about escaping from a Prisoner-of-War camp in Cold War Era Russia. Made with Twine.",
     "link": "cagedBird"
+  },
+  {
+    "name": "Combat Region",
+    "summary": "A remastering of the arcade classic <em>Battle Zone</em> made with WebGL.",
+    "link": "combatRegion"
+  },
+  {
+    "name": "Spook Skoop",
+    "summary": "A Halloween themed <em>Catch 'Em</em>-style game. Made with Unity.",
+    "link": ""
+  },
+  {
+    "name": "This Portfolio!",
+    "summary": "My very own portfolio website, implemented entirely from scratch with HTML, CSS, and Javascript.",
+    "link": "portfolio"
   },
   {
     "name": "TETR.IO Bot",

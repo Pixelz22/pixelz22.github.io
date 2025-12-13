@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler's Portfolio - Combat Region</title>
+
+    <!-- Style Sheets-->
+    <link rel="stylesheet" href="/css/presets.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/md-layout.css">
+    <link rel="stylesheet" href="/css/sm-layout.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=JetBrains Mono'>
+    <link rel="stylesheet" href="/css/project-page.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+</head>
+<body>
+<div class="content-wrapper">
+    <header></header>
+    <script type="application/javascript" src="/js/header.js"></script>
+    <div id="project-container" class="flex">
+        <div id="project-info">
+            <h1 id="project-name">Combat Region</h1>
+            <div id="project-tags" class="flex">
+                <div class="tag">Game</div>
+                <div class="tag">Programming</div>
+                <div class="tag">HTML/CSS</div>
+                <div class="tag">Javascript</div>
+                <div class="tag">SFX</div>
+                <div class="tag">School</div>
+            </div>
+            <span id="project-date">Developed Nov 12th, 2025 - Dec 10th, 2025</span>
+            <div id="project-description">
+                <p>
+                    A remastering of the arcade classic <em>Battle Zone</em> with improved graphics
+                </p>
+                <p>
+                    Blow up as many tanks as you want in this early style first-person shooter about maneuvering your
+                    tank around a battlefield. Aim for the high score as the difficulty amps up with every kill! To
+                    see more about the game, check out the showcase on this page.
+                </p>
+                <p>
+                    This game has all the core mechanics of the original, with one main extra feature. Because the game
+                    uses rasterized graphics through WebGL, we can now apply textures and shading to our objects!
+                    Pressing the exclamation mark (!) will toggle the new set of graphics.
+                </p>
+                <p>
+                    This was made as the final project for my CSC 561 (Computer Graphics) class at NC State University.
+                </p>
+            </div>
+            <div id="project-remarks">
+                <h3>Remarks</h3>
+                <ul>
+                    <li>This was my first time programming a full game in Javascript without a pre-existing engine.</li>
+                    <li>All the backend for this game, including storage of model data, shader management, and
+                        transform representation is designed and implemented by yours truly.</li>
+                    <li>All assets were found online for free or made by hand.</li>
+                    <li>The showcase video was made in 3 hours using DaVinci Resolve.</li>
+                </ul>
+            </div>
+            <div class="flex justify-content-space">
+                <div id="project-tools">
+                    <h3>Tools & Frameworks</h3>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>Javascript</li>
+                        <li>GIMP</li>
+                        <li>BFXR</li>
+                        <li>DaVinci Resolve</li>
+                    </ul>
+                </div>
+                <div id="project-ref">
+                    <a class="download-link" target="_blank"
+                       href="https://pixelz22.github.io/CombatRegion/">
+                        Play in Browser!
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="project-showcase">
+            <div class="grid place-items-center grid-1c">
+                <iframe width=500 height="400" src="https://www.youtube.com/embed/Dg7CdQCHo9E"></iframe>
+                <img width="500" src="data/combatRegion_gameplayPic.jpg" alt="A screenshot of gameplay from Combat Region.">
+            </div>
+        </div>
+    </div>
+    <footer><span>&copy; 2025 Tyler Lee Johnson</span></footer>
+</div>
+</body>
+</html>
