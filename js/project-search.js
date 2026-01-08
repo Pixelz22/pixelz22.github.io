@@ -11,11 +11,14 @@ let listingTemplate = Handlebars.compile(`
 {{/each}}
 `);
 
-fetch('./listing.json')
+let SETTINGS;
+
+fetch('./settings.json')
     .then((response) => response.json())
-    .then((listingJSON) => {
+    .then((settingsJSON) => {
+        SETTINGS = settingsJSON;
         let resultsContainer = document.getElementsByTagName("project-list")[0];
-        resultsContainer.innerHTML = listingTemplate({projects: listingJSON});
+        resultsContainer.innerHTML = listingTemplate({projects: settingsJSON['listing']});
     });
 
 function onFilterClick() {

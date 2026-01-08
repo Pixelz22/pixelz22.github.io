@@ -1,0 +1,97 @@
+{
+  "tag_colors": {
+    "html": "red"
+  },
+  "listing": [
+    {
+      "name": "Horatio and the Temple of Time & Space",
+      "summary": "A short puzzle-platformer about manipulating your surroundings with various spells. Made with Unity.",
+      "link": "horatio"
+    },
+    {
+      "name": "Liar's Dice for Discord",
+      "summary": "A fully implemented Discord Bot that allows users to play Liar's Dice with each other through an embed-based GUI. Made with Discord.py",
+      "link": "liarsDiceBot"
+    },
+    {
+      "name": "Fiery Waters",
+      "summary": "A song that mixes electronic and orchestral elements to create a beautiful soundscape imitating a sunrise. Made with Ableton Live 12.",
+      "link": "fieryWaters"
+    },
+    {
+      "name": "Sound Design for \"The Robbing\"",
+      "summary": "Mixing, Mastering, and SFX for a short LEGO&reg; animation about a bank robbery.",
+      "link": "theRobbing"
+    },
+    {
+      "name": "Metathesiophobia",
+      "summary": "A first-person 3D horror game about escaping from a lab while avoiding a raging monster.",
+      "link": "metathesiophobia"
+    },
+    {
+      "name": "Month of Tune 2025",
+      "summary": "A collection of songs I wrote for the Month of Tune 2025 event.",
+      "link": "monthOfTune2025"
+    },
+    {
+      "name": "LazÆr",
+      "summary": "A top-down grid-based puzzle game set in a futuristic lab. Made with PuzzleScript.",
+      "link": "lazAEr"
+    },
+    {
+      "name": "Insomnia",
+      "summary": "A piano duet inspired by Brahms Hungarian Dance No. 5 that falls deeper into madness as it continues.",
+      "link": "insomnia"
+    },
+    {
+      "name": "Caged Bird",
+      "summary": "A text-based adventure game about escaping from a Prisoner-of-War camp in Cold War Era Russia. Made with Twine.",
+      "link": "cagedBird"
+    },
+    {
+      "name": "Combat Region",
+      "summary": "A remastering of the arcade classic <em>Battle Zone</em> made with WebGL.",
+      "link": "combatRegion"
+    },
+    {
+      "name": "Spook Skoop",
+      "summary": "A Halloween themed <em>Catch 'Em</em>-style game. Made with Unity.",
+      "link": "spookSkoop"
+    },
+    {
+      "name": "This Portfolio!",
+      "summary": "My very own portfolio website, implemented entirely from scratch with HTML, CSS, and Javascript.",
+      "link": "portfolio"
+    },
+    {
+      "name": "TETR.IO Bot",
+      "summary": "A python bot that plays Tetris on the popular site TETR.IO using screengrabs and input simulation.",
+      "link": ""
+    },
+    {
+      "name": "Valles Liliorum",
+      "summary": "A somber composition for solo piano.",
+      "link": "vallesLiliorum"
+    },
+    {
+      "name": "Waltz of the Lilies",
+      "summary": "A different take on my other original work, \"Valles Liliorum,\" now arranged as a waltz for string quartet.",
+      "link": "waltzOfTheLilies"
+    },
+    {
+      "name": "Minesweeper Solver",
+      "summary": "A playable game of minesweeper with a built-in solving algorithm.",
+      "link": ""
+    },
+    {
+      "name": "Minecraft Fibonacci Sphere Generator",
+      "summary": "An algorithm to efficiently generate spheres inside of Minecraft with binary-search approximation of arccosine.",
+      "link": ""
+    },
+    {
+      "name": "Janitor Dan",
+      "summary": "A top-down arcade-style game about cleaning up after messy customers in a hectic mall. Made for ZenoJam 2021",
+      "link": "janitorDan"
+    }
+  ]
+}
