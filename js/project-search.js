@@ -17,3 +17,7 @@ fetch('./listing.json')
         let resultsContainer = document.getElementsByTagName("project-list")[0];
         resultsContainer.innerHTML = listingTemplate({projects: listingJSON});
     });
+
+function onFilterClick() {
+    console.log("hi!");
+}

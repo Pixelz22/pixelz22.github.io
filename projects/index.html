@@ -21,6 +21,45 @@
         <header></header>
         <div style="display: flex; flex-direction: column; align-items: center;">
             <h1>Projects</h1>
+
+            <div class="mt-4 mb-4">
+                <div class="grid grid-gap-4 grid-2c-fit">
+                    <span class="justify-self-right align-self-center text-bold text-lg">Language:</span>
+                    <div class="flex-wrap align-items-center justify-content-center space-x-1">
+                        <input type="checkbox" id="filter-html" value="programming" onchange="onFilterClick()" class="native-checkbox">
+                        <label for="filter-html" class="filterOption">HTML/CSS/JS</label>
+
+                        <input type="checkbox" id="filter-C#" value="programming" onchange="onFilterClick()" class="native-checkbox">
+                        <label for="filter-c#" class="filterOption">C#</label>
+
+                        <input type="checkbox" id="filter-java" value="programming" onchange="onFilterClick()" class="native-checkbox">
+                        <label for="filter-java" class="filterOption">Java</label>
+
+                        <input type="checkbox" id="filter-python" value="programming" onchange="onFilterClick()" class="native-checkbox">
+                        <label for="filter-python" class="filterOption">Python</label>
+                    </div>
+
+                    <span class="justify-self-right align-self-center text-bold text-lg">Audio:</span>
+                    <div class="flex-wrap align-items-center justify-content-center space-x-1">
+                        <input type="checkbox" id="filter-music" value="programming" onchange="onFilterClick()" class="native-checkbox">
+                        <label for="filter-music" class="filterOption">Music</label>
+
+                        <input type="checkbox" id="filter-sfx" value="programming" onchange="onFilterClick()" class="native-checkbox">
+                        <label for="filter-sfx" class="filterOption">SFX</label>
+                    </div>
+
+                    <span class="justify-self-right align-self-center text-bold text-lg">Other:</span>
+                    <div class="flex-wrap align-items-center justify-content-center space-x-1">
+                        <input type="checkbox" id="filter-game" value="programming" onchange="onFilterClick()" class="native-checkbox">
+                        <label for="filter-game" class="filterOption">Game</label>
+
+                        <input type="checkbox" id="filter-school" value="programming" onchange="onFilterClick()" class="native-checkbox">
+                        <label for="filter-school" class="filterOption">School</label>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="width: 90%;">
             <project-list></project-list>
         </div>
         <footer><span>&copy; 2025 Tyler Lee Johnson</span></footer>

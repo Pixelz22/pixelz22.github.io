@@ -13,6 +13,9 @@ elements on the page.
     margin-left: 1rem;
 }
 
+.mt-4 {
+    margin-top: 1rem;
+}
 
 .mb-4 {
     margin-bottom: 1rem;
@@ -35,6 +38,14 @@ elements on the page.
 
 .margin-sides {
     margin: 0 1em;
+}
+
+.space-x-4 > :not(:first-child) {
+    margin-left: 1rem;
+}
+
+.space-x-1 > :not(:first-child) {
+    margin-left: 0.25rem;
 }
 
 /* Width Classes */
@@ -87,6 +98,10 @@ elements on the page.
     grid-template-columns: max-content max-content;
 }
 
+.grid-2r-fit {
+    grid-template-rows: max-content max-content;
+}
+
 .grid-gap-4 {
     gap: 1rem;
 }
@@ -109,6 +124,10 @@ elements on the page.
     align-items: center;
 }
 
+.align-items-end {
+    align-items: end;
+}
+
 .align-self-start {
     align-self: start;
 }
@@ -119,6 +138,10 @@ elements on the page.
 
 .justify-self-left {
     justify-self: left;
+}
+
+.justify-self-right {
+    justify-self: right;
 }
 
 /* Float Classes */

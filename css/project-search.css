@@ -44,4 +44,67 @@ project.active:hover {
     transform: scale(1.05);
     box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.4);
     filter: brightness(125%);
+
+}
+
+project.active:active {
+    transform: scale(1.02);
+    box-shadow: 0 0.5em 1.5em 0 rgba(0, 0, 0, 0.2);
+    filter: brightness(125%);
+
+    transition: transform 0.1s;
+}
+
+/* Filter CSS */
+
+.native-checkbox {
+    display: none;
+}
+
+.filterOption {
+    background-color: green;
+
+    position: relative;
+    display: inline-block;
+
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    border-radius: 1rem; /* Make it round (use 8px for rounded square) */
+
+    transition: filter 0.25s, transform 0.1s;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.filterOption:hover {
+    filter: brightness(120%);
+}
+
+.filterOption:active {
+    transform: scale(0.95);
+}
+
+
+.filterOption::before {
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    left: 0.3rem;
+    top: calc(50% - 0.625rem);
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* Add a checkmark icon */
+.native-checkbox:checked + .filterOption::after {
+    content: "✓"; /* Checkmark symbol */
+    position: absolute;
+    left: 0.5rem; /* Align checkmark */
+    top: -0.25rem;
+    color: black; /* White checkmark */
+    font-size: 1.5rem;
+    font-weight: bold;
 }
